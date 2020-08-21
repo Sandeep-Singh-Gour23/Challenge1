@@ -12,7 +12,7 @@ e.preventDefault()
     var query = $("#search").val()
     const API_KEY = '992fd49bf034fc7e795ef4f189049b7a';
 
-    let url = `http://api.serpstack.com/search?access_key=${API_KEY}&type=web&query=${query}`;
+    let url = `https://api.serpstack.com/search?access_key=${API_KEY}&type=web&query=${query}`;
 
     fetch(url).then((res)=>
     {
